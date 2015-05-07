@@ -1,0 +1,3 @@
+include ':app'
+include ':Arad'
+project(':Arad').projectDir = new File(settingsDir, '../Gridinfo_Arad')
