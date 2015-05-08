@@ -1,26 +1,23 @@
 package jeremy.mycars.activity;
 
-import android.app.Activity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.avos.avoscloud.AVException;
 import com.avos.avoscloud.AVObject;
 import com.avos.avoscloud.AVQuery;
 import com.avos.avoscloud.GetCallback;
-import com.beanu.arad.base.BaseActivity;
 import com.beanu.arad.utils.Log;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 import butterknife.OnClick;
 import jeremy.mycars.R;
+import jeremy.mycars.base.MyActivity;
 
 
-public class MainActivity extends BaseActivity {
+public class MainActivity extends MyActivity {
 
 
     @InjectView(R.id.showRs)
@@ -42,6 +39,11 @@ public class MainActivity extends BaseActivity {
 //        ms.saveInBackground();
     }
 
+    @Override
+    public boolean setupToolBarLeftButton(ImageView leftButton) {
+        return false;
+    }
+
     @OnClick(R.id.btn_show)
     void setBshow() {
         AVQuery<AVObject> query = new AVQuery<AVObject>("cars");
@@ -57,25 +59,5 @@ public class MainActivity extends BaseActivity {
         });
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
 }

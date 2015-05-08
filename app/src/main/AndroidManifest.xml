@@ -10,11 +10,11 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name=".base.CarApplication"
+        android:name=".base.App"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme">
+        android:theme="@style/MyAppTheme">
         <activity
             android:name=".activity.MainActivity"
             android:label="@string/app_name">
@@ -24,6 +24,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="554c6ffd67e58e54ac0041b2" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="test" />
     </application>
 
 </manifest>
