@@ -1,7 +1,6 @@
 package jeremy.mycars.base;
 
 import android.app.Activity;
-import android.support.v4.app.Fragment;
 
 import com.beanu.arad.base.BaseActivity;
 import com.umeng.analytics.MobclickAgent;
@@ -13,7 +12,7 @@ import jeremy.mycars.util.widget.ProgressDialog;
  * @author jeremy16601
  *         Fragment基类，如果子类注册了广播，则每个子类的类全名都是默认的广播action
  */
-public class BaseFragment extends Fragment {
+public class BaseFragment extends com.beanu.arad.base.BaseFragment {
 
     protected BaseActivity sActivity;
     private ProgressDialog progress;

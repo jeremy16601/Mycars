@@ -1,3 +1,5 @@
 include ':app'
 include ':Arad'
 project(':Arad').projectDir = new File(settingsDir, '../Gridinfo_Arad')
+include ':library-mylistview'
+project(':library-mylistview').projectDir = new File(settingsDir, '../library-mylistview')

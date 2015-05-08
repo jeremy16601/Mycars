@@ -2,21 +2,36 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/activity/SingleFragmentActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/adapter/ViewPagerAdapter.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/base/BaseBackActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/base/BaseFragment.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/base/MyActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/fragment/AboutFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/fragment/LeftMenuFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/fragment/SettingFragment.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/util/ActivitySwitcher.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/util/CommonUtils.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/util/DoubleClickExitHelper.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/util/Params.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/util/ShareUtils.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/util/SimpleFactory.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/util/widget/BaseDialog.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/util/widget/ProgressDialog.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/jeremy/mycars/util/widget/ScrollListenerWebView.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/anim" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/color" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_about.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_setting.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/icon_share.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/left_menu_divider.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/loading_large_icon.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/dialog_loading_bg.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/item_left_menu_bg.xml" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_progress.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_about.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_left_menu.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_setting.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values/attrs.xml" charset="GBK" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

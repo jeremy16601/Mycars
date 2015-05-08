@@ -49,5 +49,7 @@ dependencies {
     compile 'cn.leancloud.android:avoscloud-search:v2.7+@aar'
     compile project(':Arad')
     compile 'me.imid.swipebacklayout.lib:library:1.0.0'
+    compile 'com.astuetz:pagerslidingtabstrip:1.0.1'
     compile 'com.umeng.analytics:analytics:latest.integration'
+    compile project(':library-mylistview')
 }
